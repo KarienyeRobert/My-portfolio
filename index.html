@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Karienye">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Robert Karienye|Portfolio</title>
+   <link rel="icon " href="img/title-img.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+   <!--swiper css-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+ 
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <div class="logo">
+            <img src="img/robert karienye.png">
+            <p>Robert Karienye</p>
+        </div>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="dark-mode">
+            <span class="material-icons-sharp" id="darkMode">
+              dark_mode
+            </span>
+          </div>
+  
+    </header>
+
+    <!--home design section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>ROBERT KARIENYE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, velit? Eaque alias vero incidunt cumque veritatis nisi, quo ea, inventore nemo nostrum aliquam distinctio molestiae dicta architecto saepe ipsam. Molestias!</p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/karienye_/"><i class='bx bxl-instagram-alt'></i></i></a>
+                <a href="https://twitter.com/karienye_robert"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.tiktok.com/@whalllllllll"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://www.linkedin.com/in/robert-karienye-8a4aa1242/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+           <button> <a class="btn" href="img/CV - ROBERT KARIENYE.pdf" download="CV - ROBERT KARIENYE.pdf">Download CV</a></button>
+        </div>
+
+       <div class="container">
+        <div class="profession-box">
+            <div class="profession">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+       </div>
+        <div class="home-img">
+            <img src="img/Snapchat-606706863.jpg" >
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="container">
+                <div class="box">
+                    <div class="box1">
+                  <img src="img/project 5.jpg" >
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm here to make you web desires a reality</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Praesentium eaque sint in laudantium ipsum vel nisi pariatur consequuntur numquam a laboriosam optio deleniti explicabo quaerat excepturi, magnam dicta minus dolorum.</p>
+                 <button class="btn" onclick="openBob()">Read More</button>
+                    <div id="myBob" class="modal">
+                        <h3>About Me </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                        <button class="Close" onclick="closeBob()">Close</button>
+                    </div>
+        </div>
+        <div class="personal-info">
+            <table>
+                <tr>
+                  <td>Age:</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td>5"8</td>
+                  </tr>
+                <tr>
+                  <td>Residence:</td>
+                  <td>Nairobi, Kenya</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>karienyerobert@gmail.com</td>
+                </tr>
+                <tr>
+                <td>Freelance:</td>
+                  <td>Available</td>
+                </tr>
+              </table>
+              
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <span class="material-icons-sharp">
+                    code
+                  </span>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                    <button class="btn" onclick="openWeb()">Learn More</button>
+                    <div id="myWeb" class="modal">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                        <button class="Close" onclick="closeWeb()">Close</button>
+                    </div>
+            </div>
+            <div class="services-box">
+                <span class="material-icons-sharp">
+                    brush
+                  </span>
+                    <h3>Graphics Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                    <button class="btn" onclick="openPop()">Learn More</button>
+                    <div id="myDesign" class="modal">
+                        <h3>Graphics Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                        <button class="Close" onclick="closePop()">Close</button>
+                    </div>
+            </div>
+            <div class="services-box">
+                <span class="material-icons-sharp">
+                    developer_mode
+                  </span>
+                    <h3>Mobile App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                    <button class="btn" onclick="openPopup()">Learn More</button>
+                    <div id="myModal" class="modal">
+                        <h3>Mobile App Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim omnis, quisquam maxime optio ducimus expedita assumenda illo ipsum, eligendi, temporibus cupiditate. Laudantium, odit sed! Quia id odio eligendi similique!</p>
+                        <button class="Close" onclick="closePopup()">Close</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/project 1.png">
+
+                <div class="portfolio-layer">
+                    <h4>School Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia quidem sint eveniet aliquid, voluptatum deleniti quo sunt quod molestiae omnis tenetur eligendi earum iste. Voluptas rerum saepe voluptatibus deserunt.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project 2.jpg">
+
+                <div class="portfolio-layer">
+                    <h4>ERP Dashboard Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia quidem sint eveniet aliquid, voluptatum deleniti quo sunt quod molestiae omnis tenetur eligendi earum iste. Voluptas rerum saepe voluptatibus deserunt.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project 3.jpg">
+
+                <div class="portfolio-layer">
+                    <h4>Insta Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia quidem sint eveniet aliquid, voluptatum deleniti quo sunt quod molestiae omnis tenetur eligendi earum iste. Voluptas rerum saepe voluptatibus deserunt.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project 4.jpg">
+
+                <div class="portfolio-layer">
+                    <h4>NGO-Peace Awareness Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia quidem sint eveniet aliquid, voluptatum deleniti quo sunt quod molestiae omnis tenetur eligendi earum iste. Voluptas rerum saepe voluptatibus deserunt.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project 5.jpg">
+
+                <div class="portfolio-layer">
+                    <h4>E-commerce Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia quidem sint eveniet aliquid, voluptatum deleniti quo sunt quod molestiae omnis tenetur eligendi earum iste. Voluptas rerum saepe voluptatibus deserunt.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--testimony -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper" >
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/about-img.png" >
+                        <h3>Jake Peralta</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque mollitia atque sequi obcaecati illum tempora ipsum delectus, enim, fugit deleniti fugiat accusamus adipisci repudiandae perspiciatis vero ratione beatae perferendis id et at laboriosam dolores. Labore consectetur mollitia nisi doloremque consequatur perspiciatis incidunt blanditiis dicta vero, illo quos eum voluptatem placeat odit id magni consequuntur quas nulla atque aliquam distinctio.</p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/about-img.png" >
+                        <h3>Mike Ross</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque mollitia atque sequi obcaecati illum tempora ipsum delectus, enim, fugit deleniti fugiat accusamus adipisci repudiandae perspiciatis vero ratione beatae perferendis id et at laboriosam dolores. Labore consectetur mollitia nisi doloremque consequatur perspiciatis incidunt blanditiis dicta vero, illo quos eum voluptatem placeat odit id magni consequuntur quas nulla atque aliquam distinctio.</p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/about-img.png" >
+                        <h3>Amy Santiago</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque mollitia atque sequi obcaecati illum tempora ipsum delectus, enim, fugit deleniti fugiat accusamus adipisci repudiandae perspiciatis vero ratione beatae perferendis id et at laboriosam dolores. Labore consectetur mollitia nisi doloremque consequatur perspiciatis incidunt blanditiis dicta vero, illo quos eum voluptatem placeat odit id magni consequuntur quas nulla atque aliquam distinctio.</p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/about-img.png" >
+                        <h3>Rachel Zane</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque mollitia atque sequi obcaecati illum tempora ipsum delectus, enim, fugit deleniti fugiat accusamus adipisci repudiandae perspiciatis vero ratione beatae perferendis id et at laboriosam dolores. Labore consectetur mollitia nisi doloremque consequatur perspiciatis incidunt blanditiis dicta vero, illo quos eum voluptatem placeat odit id magni consequuntur quas nulla atque aliquam distinctio.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--contact section-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#"method="">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email"placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text"placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Karienye |All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home">
+                <span class="material-icons-sharp">
+                    keyboard_arrow_up
+                  </span>
+            </a>
+        </div>
+    </footer>
+      <!--swiper js-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script src="index.js"></script>
+
+</body>
+</body>
+</html>
