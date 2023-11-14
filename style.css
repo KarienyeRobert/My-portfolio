@@ -71,8 +71,8 @@ body{
 }
 
 .logo img{
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
 
@@ -112,6 +112,23 @@ nav a .active::before{
     width: 100%;
     height: 0.2rem;
     background: var(--white-color);
+}
+
+#darkMode-icon{
+    font-size: 2.4rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.header .sticky #darkMode-icon{
+    color: var(--white-color);
+    opacity: .9;
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
 }
 
 section{
@@ -662,4 +679,71 @@ td{
 .footer-iconTop a span{
     font-size: 2.4rem;
     color: #333;
+}
+
+/*breakpoints*/
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+
+    .home .container{
+        height: 85.8rem;
+    }
+
+    .home .container .profession-box{
+        right: -12rem;
+        height: 85.8rem;
+    }
+
+    .home .container .overlay{
+        right: -9rem;
+    }
+}
+
+@media(max-width:1024px){
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3% 2rem;
+    }
+
+    .home .container .profession-box{
+        right: -22rem;
+    }
+
+    .home .container .overlay{
+        right:-15rem ;
+    }
+}
+
+@media(max-width:991px){
+
+    .navbar a:nth-child(1),
+    .navbar a:nth-child(2){
+        color: var(--main-color);
+    }
+
+    .navbar a.active::before{
+        background: var(--main-color);
+        opacity: .7;
+    }
+
+    .home .home-content{
+        max-width: 50rem;
+    }
+
+    .home .container .profession-box{
+        right: -45rem;
+    }
+
+    .home .container .overlay{
+        right: -39.5rem;
+    }
+
+    .home-img img{
+        display: none;
+    }
 }
